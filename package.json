@@ -6,6 +6,11 @@
   "repository": "https://github.com/Dev-Mind/dev-mind.com.git",
   "author": "Guillaume EHRET <guillaume@dev-mind.fr>",
   "license": "MIT",
+  "scripts": {
+    "prepublish": "npm install gulp -g",
+    "build": "gulp",
+    "start": "gulp serve"
+  },
   "dependencies": {
     "asciidoctor.js": "^1.5.6-preview.3",
     "async": "^2.4.1",
