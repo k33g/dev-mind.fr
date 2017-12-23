@@ -3,6 +3,6 @@ module.exports = {
   "authDomain": process.env.AUTH_DOMAIN,
   "databaseURL": process.env.DATABASE_URL,
   "storageBucket": process.env.STORAGE_BUCKET,
-  "user": process.env.USER,
+  "user": process.env.USER_MAIL,
   "password": process.env.PASSWORD
 }
