@@ -253,7 +253,7 @@ gulp.task('serveAndWatch', ['initModeDev', 'build'], () => {
       baseDir: "./build/dist/"
     },
     notify: false,
-    port: 3000
+    port: process.env.PORT
   });
 
   gulp.watch('src/**/*.html', ['html', browserSync.reload]);
